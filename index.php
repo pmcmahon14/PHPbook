@@ -10,7 +10,7 @@ this comment is used on multiple lines*/
 </html>
 <html>
 <?php
-echo "PHP said \"Hello World!\"\n";
+echo "PHP said \"Hello World!\"\r";
 echo "Hello \t\t\t World!";
 ?>
 </html>
