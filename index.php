@@ -1,4 +1,3 @@
-<html>
 <?php
 function multiply($x, $y) {
     calculate($x, $y);
@@ -11,4 +10,4 @@ function calculate ($a, $b){
 <?php
 multiply (10, 20);
 ?>
-</html>
+
