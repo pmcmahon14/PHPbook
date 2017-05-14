@@ -1,11 +1,16 @@
 <html>
-<?php
-
-?>
+<p>Please select your favorite color</p>
+<form method="get">
+    <input type="radio" name="color" value="red">Red<br>
+    <input type="radio" name="color" value="yellow">Yellow<br>
+    <input type="radio" name="color" value="green">Green<br>
+    <br><br>
+    <input type="submit" value="Submit">
+    <br><br>
+</form>
 </html>
-/**
- * Created by PhpStorm.
- * User: Patrick
- * Date: 5/13/2017
- * Time: 9:33 PM
- */
+<?php
+echo "You select:<br><br>";
+$hobby = $_GET['color'];
+echo ($hobby);
+?>
