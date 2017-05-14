@@ -1,7 +1,8 @@
+<html>
 <?php
-/**
- * Created by PhpStorm.
- * User: Patrick
- * Date: 5/14/2017
- * Time: 11:55 AM
- */
+echo 'substr("JavaScript in 8 hours!",4,6) returns:'."<br><br>";
+echo substr("JavaScript in 8 hours!",4,6)."<br><br>";
+echo 'substr("JavaScript in 8 hours!",11) returns:'."<br><br>";
+echo substr("JavaScript in 8 hours!",11)."<br><br>";
+?>
+</html>
