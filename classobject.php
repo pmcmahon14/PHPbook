@@ -1,5 +1,8 @@
 <html>
 <?php
+class one{ //more than one class fixes icon problem but still nothing on page
+
+}
 class setDate { //define a class "setDate"
     var $day;  //declare three variable members
     var $month;
